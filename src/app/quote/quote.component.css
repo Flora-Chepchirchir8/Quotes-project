@@ -1,0 +1,36 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.overlay {
+    background-color: rgba(158, 233, 158, 0.301);
+    border-radius: 9px;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 5%;
+}
+
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-bottom: 2%;
+    background-color: rgba(245, 245, 220, 0.986);
+    box-shadow: 2px 2px 3px 2px black;
+}
+
+.card-text {
+    font-weight: 570;
+    font-size: 18px;
+}

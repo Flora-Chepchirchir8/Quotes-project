@@ -1,0 +1,28 @@
+<div class="overlay">
+    <h1 style="color: black;">
+        Quotes App
+    </h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <app-quote-form (addAQuote)="newQuote($event)"></app-quote-form>
+            </div>
+            <div class="col-sm-9">
+                <div class="all-cards">
+                    <div *ngFor="let quote of quotes let i= index" class="card m-5" style="width: 24rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">{{quote.title}} </h4>
+
+                            <p class="card-text" id="param">{{quote.quote}}</p>
+                            <button (click)='displayInfo(i)' class="btn btn-info btn-sm" id="quotes-button">See More</button>
+                            <app-quote-detail [quote]="quote" *ngIf='quote.showInfo' (quoteIsDelete)="deleteAquote($event,i)"></app-quote-detail>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

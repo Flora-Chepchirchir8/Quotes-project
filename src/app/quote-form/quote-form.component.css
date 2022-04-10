@@ -1,0 +1,32 @@
+
+.form-control {
+    color: black;
+    background: transparent;
+    font-weight: 570px;
+}
+
+label {
+    color: black;
+    font-weight: 400px;
+}
+
+hr {
+    width: 45%;
+    height: 2px;
+    background-color: orangered;
+}
+
+.heading {
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.container-fluid {
+    background-color: rgba(243, 252, 250, 0.374);
+    border-radius: 4px;
+    padding-bottom: 5%;
+    box-shadow: 2px 2px 3px 2px black;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}

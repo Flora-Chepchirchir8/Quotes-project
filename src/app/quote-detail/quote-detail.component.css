@@ -1,0 +1,12 @@
+#buttons {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#delete {
+    font-size: 20px;
+    margin-right: 2%;
+}
+.danger{
+    text-align: center;
+}
