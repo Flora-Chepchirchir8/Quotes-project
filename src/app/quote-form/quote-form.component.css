@@ -3,6 +3,7 @@
     color: black;
     background: transparent;
     font-weight: 570px;
+    
 }
 
 label {
@@ -25,8 +26,9 @@ hr {
 .container-fluid {
     background-color: rgba(243, 252, 250, 0.374);
     border-radius: 4px;
-    padding-bottom: 5%;
     box-shadow: 2px 2px 3px 2px black;
     margin-bottom: 5%;
+    margin-left: 27%;
+    margin-top: 19%;
     
 }
