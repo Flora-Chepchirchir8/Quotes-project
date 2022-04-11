@@ -14,7 +14,7 @@ label {
 hr {
     width: 45%;
     height: 2px;
-    background-color: orangered;
+    background-color: rgb(101, 175, 101);
 }
 
 .heading {
