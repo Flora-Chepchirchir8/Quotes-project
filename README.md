@@ -1,27 +1,39 @@
-# Quotes
+# Quotes App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+![Project Image](src/assets/quotesapp.png)
 
-## Development server
+### By: Flora Chepchirchir
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Description
 
-## Build
+This is an Angular project that generates quotes and gives a room for upvoting and downvoting a quote. Quotes app provides recent quotes and states the authors of the quote.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Live Link
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## BDD
 
-## Running end-to-end tests
+The user is able to;
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- View recent votes
 
-## Further help
+- Share their quote
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Upvote or Downvote a quote
+
+- Delete a quote
+
+## Technologies
+
+- HTML5
+- CSS3
+- Boostrap
+- JavaScript
+- Angular
+- Typescript
+
+## Licence
+
+Copyright (c) Flora Chepchirchir- [MIT Licence](LICENSE)
