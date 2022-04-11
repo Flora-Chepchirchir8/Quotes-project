@@ -2,7 +2,7 @@
 <br><span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.name}}</span>
 <span id="date">  on: <span id="datecolor">{{quote.datePosted|dateCount}}</span></span>
 </span>
-<div class="container-fluid" id="buttons">
+<div class="container-fluid" id="btn">
     <button (click)="upVote()" class=" btn btn-sm btn-success ">{{likes}} <i class="fa fa-thumbs-up " id="like "></i></button>
     <button (click)="downVote()" class="btn btn-sm hate " id="hate ">{{dislikes}} <i class="fa fa-thumbs-down " id="dislike "></i></button><br>
     <div class="danger"><a (click)="deleteQuote(true) " class="btn btn-danger " id="Lorem ">Delete</a></div>
